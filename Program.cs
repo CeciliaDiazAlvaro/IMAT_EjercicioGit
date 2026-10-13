@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int firstNumber = 0;
+            int secondNumber = 9;
+            Console.WriteLine(Add(firstNumber,secondNumber));
+        }
+
+        static int Add(int x, int y) 
+        {
+            return x+y;
         }
     }
 }
